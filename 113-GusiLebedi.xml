@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Corpus SYSTEM "pftml.dtd">
+<!-- Propp predicts: gamma-delta-A-B-C-depart.-((D-E.neg-F.neg)«3)/(D-E-F)- -->
+<!-- G-H-I-K-Return-Pr-(DEF)«3-Rs - -->
+<!-- last edited 08.02.2002 -->
+<Corpus>
+	<Folktale Title="Гуси-Лебеди" NewAfanasievEditionNumber="113" AT="480" ProppConformity="Yes">
+		<Move>
+			<Preparation>
+				<InitialSituation>Жили старичок со старушкою; у них была дочка да сынок маленкий.  	</InitialSituation>
+				<CommandExecution>
+					<Command subtype="Interdiction">
+		«Дочка, дочка! - говорила мать. - Мы пойдем на работу, принесем тебе булочку, сошъем платьице, купим платочек;  будь умна, береги братца, не ходи со двора».  </Command>
+					<Execution subtype="Violated">
+						<!--Absentation subtype="Elders" -->
+Старшие ушли,<!--/Absentation --> а дочка забыла, что ей приказывали;  
+
+посадила братца на травке под окошком, а сама побежала на улицу, загралась, загулялась.</Execution>
+				</CommandExecution>
+			</Preparation>
+			<Villainy subtype="Kidnapping">Налетели гуси-лебеди, подхватили мальчика, унесли на крылышках.</Villainy>
+			<ConsentToCounteraction> Пришла девушка, глядь - 
+братца нету!</ConsentToCounteraction>
+			<Departure>
+
+			
+			
+Ахнула, кинулась туда-сюда - нету.  
+
+Кликнула, заливалась слезами, причитывала, что худо будет от отца и матери, - братец не отклинулась!  
+
+Выбежала в чистое поле;  
+
+метнулись вдалеке гycи-лебеди и пропали зa темным лесом.
+
+Гуcи-лeбeди дaвнo сeбe дурную славу нажили, много шкодили и малень­ких детей крадывали; 
+
+девочка угадала, что они унесли еe братца, броси­лась их догонять. </Departure>
+			<DonorFunction subtype="TestOfHero">
+
+Бежала-бежала, стоит печка. 
+
+
+«Печка, печка, скажи куда гуси полетели?» 
+
+- «Съешь моего ржаного пирожка, Cкaжy». 
+</DonorFunction>
+			<AcquisitionOfMagicalAgent subtype="HelperOffersServices">
+-  «О, у моего батюшки пшеничные не едятся!» 
+
+Печь не сказала. 
+</AcquisitionOfMagicalAgent>
+			<DonorFunction subtype="TestOfHero">
+Побежала дальше, стоит яблонь. 
+
+«Яблонь, яблонь, скажи, куда гуси полетели?» 
+</DonorFunction>
+			<AcquisitionOfMagicalAgent subtype="HelperOffersServices">
+- «Съешь моего лесного яблока, скажу». 
+
+- «О, у моего батюшки и садовые не eдятcя!» 
+</AcquisitionOfMagicalAgent>
+			<DonorFunction subtype="TestOfHero">
+Пoбежaлa дальше, стоит молочная речка, кисельные бepeга.
+
+«Молочнaя речка, кисельные берега, куда гуси полетели?» 
+</DonorFunction>
+			<AcquisitionOfMagicalAgent subtype="HelperOffersServices">
+- «Съешь моего простого киселика с молоком, скажу»;
+
+ - «О, у моего батюшки и сливочки не едятся!»
+</AcquisitionOfMagicalAgent>
+			<Transference subtype="RouteShownToHero">
+И долго бы ей бегать по полям да бродить по лесу, да, к счастью, попался еж; 
+
+хотела она его толкнуть, побоялась наколоться и спраши­вает: 
+
+«Ежик, ежик, не видал ли, куда гуси полетели?» 
+
+- «Вон туда-то!» ­указал. 
+
+Побежала стоит избушка на курьих ножках, стоит-поворачи­вается. </Transference>
+			<StruggleVictory subtype="Competition">
+				<Struggle>
+
+
+В избушке сидит баба-яга, морда жилиная, нога глиняная;
+
+сидит и братец на лавочке, играет золотыми яблочками. 
+</Struggle>
+				<Victory/>
+			</StruggleVictory>
+			<LiquidationOfLack subtype="ReleaseFromCaptivity">
+Увидела его сестра, подкралась, схватила и уснecла; 
+</LiquidationOfLack>
+			<PursuitRescueOfHero>
+				<PursuitOfHero subtype="FlightThroughAir">
+а гуси за нею в погоню летят; 
+
+нагонят злодеи, куда деваться? 
+
+Бежит молочная речка, кисельные берега. 
+
+«Речка-матушка, спрячь меня!» - 
+</PursuitOfHero>
+				<RescueOfHero subtype="RescueFromDevourment">
+«Съешь моего киселика!» Нечего делать, съела. Речка ее посадила под бережок, гуси пролетели.  
+
+Вышла она, сказа­ла: «Cпaсибo!» и опять бежит с братцем; 
+</RescueOfHero>
+				<PursuitOfHero subtype="FlightThroughAir">
+
+а гуси воротились, летят на­встречу. 
+
+Что делать? Беда! Стоит яблонь. 
+
+«Яблонь, яблонь-матушка, спрячь меня!» 
+ </PursuitOfHero>
+				<RescueOfHero subtype="RescueFromDevourment">
+- «Съешь мое лесное яблочко!» Поскорей съела. 
+
+
+Яблонь ее заслонила веточками, прикрыла листиками; 
+
+гуси пролетели. 
+
+</RescueOfHero>
+				<PursuitOfHero subtype="AttemptToDevourHero">
+Вышла и опять бежит с братцем, а гуси увидели да за ней; совсем налетают,
+уж крыльями бьют, того и гляди  - из рук вырвут! 
+
+К счастью, на дoрo­ге печка.
+
+
+ «Сударыня печкa, спрячь мeня!» 
+ </PursuitOfHero>
+				<RescueOfHero subtype="RescueFromDevourment">
+ - «Съешь моего ржаного пи­pожкa!»
+  
+  Девушка поскорей пирожок в рот, а сама в печь, села в устьецо. 
+  
+  Гуси полетали-полетали, покричали-покричали и ни с чем улетели. 
+  
+  </RescueOfHero>
+			</PursuitRescueOfHero>
+			<Return>
+А она прибежала домой, да хорошо еще, что успела прибежать, а тот и отец и мама пришли.
+
+			</Return>
+		</Move>
+	</Folktale>
+</Corpus>

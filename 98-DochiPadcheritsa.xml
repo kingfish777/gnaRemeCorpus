@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- last modified 08.10.2002 by Scott A. Malec
+-->
+<!-- Propp says:  I:  A9 B5 Departure D1 E1 f1 Return
+ II:  a6 B2_5 Departure D1 E- F= Return
+-->
+<!-- This tale forms part of a suite of tales
+ of the Aarne-Thompson type 480 in Afanas'ev's 
+ collection (vide pg. 439 of Афанасьев vol. III for
+ a complete listing of tales by their respective AT#'s). -->
+<!DOCTYPE Corpus SYSTEM "pftml.dtd">
+<Corpus>
+	<Folktale Title="98" NewAfanasievEditionNumber="Дочь и Подчерица" ProppConformity="Yes" AT="480">
+		<Move>
+			<Preparation>
+				<InitialSituation>
+Женился мужик вдовый с дочкою на вдове - тоже с дочкою</InitialSituation>
+				<PrelimMisfortune>
+и было у них две сводные дочери. 
+
+Мачеха бы ла нена­ вистная;
+</PrelimMisfortune>
+			</Preparation>
+			<Villainy subtype="Expulsion">
+отдыху не дает старику:
+«Вези свою дочь в лес, в землянку!
+
+Она там больше напрядет.»  Что делать! 
+</Villainy>
+			<ConnectiveIncident subtype="Dispatch">   
+Пoслушал мужик бабу, 
+</ConnectiveIncident>
+			<Departure>
+свез дочку в землянку и дал ей огнивко, кремешик, труду да мeшочек круп и говорит:
+  </Departure>
+			<DonorFunction subtype="TestOfHero">
+
+
+ «Вот тебе огоньку; огонек не переводи, кашку вари, а сама сиди да пряди, да избушку-то припри».
+
+Пpишлa ночь. 
+
+Девка затопила печурку, заварила кашу, откуда ни возьмись мышка и говорит: 
+
+«Девица, дeвицa, дай мне ложечку каши».	
+
+«Ох, моя мышенькa! Разбай мою скуку; 
+
+я тебе дам не одну ложку каши, а и досыта накормлю». 
+
+Наелась мышка и ушла. 
+</DonorFunction>
+			<HeroReaction subtype="SustainedOrdeal">
+Ночью вло­мился медведь. 
+
+«Hyкa, 
+дeушкa, - говорит, - туши огни, дaвaй в жмурку
+играть».
+
+Мышка взбежала на плечо девицы и шепчет на ушко: 
+
+«Не бойся, девица!  Скажи: давай! а сама туши огонь да под печь полезай, а я стану бегать и в колокольчик звенеть». 
+
+Так и сталось. 
+
+Гоняется медведь за мышкою - не поймает; стал реветь да поленьями бросать; 
+
+бросал-бросал,  
+</HeroReaction>
+			<AcquisitionOfMagicalAgent subtype="GiftOfMaterialNature">
+да не попал, устал и за то пришлю тебе утром стадо конеида вез добра».
+</AcquisitionOfMagicalAgent>
+			<Return>
+Жена говорит: «Поeзжай, старик провeдaй-кa дочь что на­ пряла она в ночь?»
+
+Уехал старик, а баба сидит да ждет: как-то он дочерние косточки привезет! 
+
+Вот собачка: «Тяф, тяф, тяф! 
+
+С стариком дочка едет, стадо коней гонит, воз добра везет».
+
+- «Врешь, шафурка! 
+
+Это в кузове кости гремят да погромы хивают.»
+
+
+Вот ворота заскpипeли, кони надвор вбeжaли, а дочка с отцом сидят на возу: 
+
+полон воз добра! У бабы от жaдности аж глаза горят. </Return>
+		</Move>
+		<Move>
+			<!-- Propp here says that there is an a6, or a lack 
+of some sort.  If there is, it is not explicitly stated 
+in the text, so we procede right on to B2, connective 
+incident, suptype dispatch-->
+			<ConnectiveIncident subtype="Dispatch">
+«Экая важность! - кричит. -
+
+Повези-ка мою дочь в лес на ночь; 
+
+моя дочь два стада коней пригонит, два воза добра притащит».
+</ConnectiveIncident>
+			<Departure>
+Повез мужик и бабину дочь в землянку и так же снарядил ее и едою и огнем. </Departure>
+			<DonorFunction subtype="TestOfHero">
+Об вечеру заварила она кашу. 
+
+Вышла мышка и просит кашки у На­ташки. 
+
+А Натащка кричит: «Ишь, гада какая!»	
+
+И швыpнyлa в нее ложкой. 
+
+Mышкa убежала; 
+
+а Hатaшкa уписывaeт одна кашу, съела, огни позаду­ла и в углу прикорнула.</DonorFunction>
+			<HeroReaction subtype="SustainedOrdeal">
+Пришла полночь - вломился медведь и говорит: 
+
+«Эй, где ты, девушка? Давай-ка в жмурку поигpaeм».
+
+ Девица молчит, только со страху зубами стучит. 
+
+«А, ты вот где! На колокольчик, бегай, а я буду ловить. 
+
+Взяла колоколчик, рука дрожит, кололольчик бесперечь звенит, а мышка отзы­вается: 
+</HeroReaction>
+			<AcquisitionOfMagicalAgent subtype="CruelRetribution">
+«Злой девице живой не быть!»
+</AcquisitionOfMagicalAgent>
+			<Return>
+Наутро шлет баба старика в лес: 
+
+«Ступай! Моя дочь два воза привe­зет, два табуна пpигонит». 
+
+Мужик уехал, а баба за воротами ждет. Вот собачка: 
+
+«Тяф, тяф, тяф! Хозяйкина дочь едет - в кузове костьми гремит, а старик на пустом возу сидит».
+
+- «Врешь ты, шавчонка! 
+
+Моя дочь стада гонит и возы везет». 
+
+Глядь - старик у ворот жене кузов подает; 
+
+баба ку­зовок открыла, глянула на косточки н завыла, да так разозлилась, что с горя и злости на другой же день умерла; 
+
+а старик с дочкою хорошо свой век доживал и 
+</Return>
+			<Wedding subtype="Wedding">
+знатного зятя к себе в дом примал.</Wedding>
+		</Move>
+	</Folktale>
+</Corpus>

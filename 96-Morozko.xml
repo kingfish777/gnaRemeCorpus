@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- last edited 11.11.2001 -->
+<!DOCTYPE Corpus SYSTEM "pftml.dtd">
+<Corpus>
+	<Folktale Title="Морозко" NewAfanasievEditionNumber="96">
+		<Move>
+			<Preparation>
+				<InitialSituation> У мачехи была падчерица да родная дочка; родная что ни сделает. 
+ 
+за все ее глaдят по головке да приговаривают: 
+
+«Умница!» 
+
+А падчернца как ни угождает - ничем нe угодит все не так,  все худо; </InitialSituation>
+				<PrelimMisfortune>
+
+а нaдо правду сказать,  девочка была золото,  в хоpоших руках она бы как сыр в масле купалась,  а у маче­хи каждый день слезами умывалась.  
+
+Что делать? 
+
+Beтep хоть пошумит да затихнет,  а старая баба расходится не скоро уймется,  все бyдeт придумывать да зубы чесать.  
+
+</PrelimMisfortune>
+			</Preparation>
+			<Villainy subtype="Expulsion">
+
+И придумала мачеха падчерицу со двора согнать: 
+
+«Вези,  вези,  старик,  ее куда хочешь,  чтобы мои глаза ее не видали,  чтобы мои уши об ней не слыхали; 
+
+да не вози к родным в теплую хату,  а во чисто поле на тpeскун-моpoзl» 
+
+</Villainy>
+			<ConnectiveIncident subtype="PlaintiveSong">
+Старик затужил,  запла­кал; </ConnectiveIncident>
+			<Departure>
+			<!-- blurry segmentation -->
+однако посадил дочку на сани,  хотел прикрыть попонкой и то побоялся; 
+
+повез бездомную во чисто поле,  свалил на сугроб,  перекрестил, а сам поскорее домой, чтоб глаза не видали дочерниной смерти. 
+
+Осталась бедненькая,  трясется и тихонько молитву творит. </Departure>
+			
+			<!-- repetition of donor functions -->
+			<DonorFunction subtype="TestOfHero">		
+Приходит Mоpоз,  попpыгивaeт-пocкакивает,  на красную девушку поглядывает: «Девушка,  девушка,  я Мороз красный нос!» - 
+</DonorFunction>
+			<HeroReaction subtype="FriendlyResponse">
+«Добро пожаловать,  Мороз; знать,  бог тебя принес по мою душу грешную».  
+
+Мороз хотел ее тукнуть и заморозить; 
+</HeroReaction>
+			<AcquisitionOfMagicalAgent subtype="GiftOfMaterialNature">
+
+но полюбились ему ее умные речи,  жаль стало! 
+
+Бросил он ей шубу.
+
+  Оделась она в шубу,  подожмала ножки,  сидит.
+</AcquisitionOfMagicalAgent>
+			<DonorFunction subtype="TestOfHero">
+  Опять пришел Мороз красный нос,  попрыгивает-поскакивает,  на красную девушку погля­дывает: 
+
+«Девушка,  девушка,  я Мороз красный нос!» -</DonorFunction>
+			<HeroReaction subtype="FriendlyResponse">
+ «Дoбpo пожаловать,  Мороз; знать,  бог тебя принес по мою душу грешную». 
+</HeroReaction>
+			<AcquisitionOfMagicalAgent subtype="GiftOfMaterialNature">
+ Mopоз пришел совсем не по душу,  он принес красной девушке сундук высокий да тяжелый,  полный всякого приданого. 
+
+ Уселась она в шубочке на сундучке,  такая веселенькая,  такая хорошенькая! 
+</AcquisitionOfMagicalAgent>
+			<DonorFunction subtype="TestOfHero">
+Опять пришел Мороз красный нос,  попрыгивает-поскакивает,  на красную дeвушку поглядывает.  
+</DonorFunction>
+			<HeroReaction subtype="FriendlyResponse">
+Она его приветила,  </HeroReaction>
+			<AcquisitionOfMagicalAgent subtype="GiftOfMaterialNature">
+a он ей подарил платье,  шитое и серебром и золотом.  
+
+Надела она и стала какая красавица,  какая нарядница! 
+
+ Сидит и песенки попевает. 
+</AcquisitionOfMagicalAgent>
+			<Return>
+А Maчexa по ней поминки справляет; напекла блинов.  
+
+«Ступай,  муж,  вези хоронить свою дочь».  
+
+Старик поехал.  А собачка под столом: 
+
+«Тяв,  тяв! Старикову дочь в злате,  в серебре везут,  а старухину женихи не берут!»	
+
+«Молчи,  дура! 
+
+На блин,  скажи: старухину дочь женихи возь­мут,  a стapиковой одни косточки привезут!»
+
+ Собачка съелаблин да опять: 
+
+«Тяв,  тяв! Старикову дочь в злате,  в серебре везут,  а старухину женихи не бepут!» 
+
+Старуха и блины давала и била ее,  а собачка все свое: 
+
+«Старикову дочь в злате,  в серебре везут,  а старухину женихи не возьмут!»
+
+Скрипнули ворота,  растворилися двери,  несут сундук высокий,  тяже­лый,  идет падчерица - панья паньей сияет! 
+</Return>
+		</Move>
+		<Move>
+		<Preparation><InitialSituation>
+Мачеха глянула - и руки врозь! 
+</InitialSituation><CommandExecution><Command subtype="Command">
+«Старик,  старик,  запрягай других лошадей,  вези мою дочь поско­рей!  Посади на то же поле,  на то же место».  
+</Command>
+		<Execution subtype="Followed">Повез стакик на то же поле,  посадил на то же место.</Execution>
+		</CommandExecution></Preparation>	
+
+<!-- here we have a parody of the first move.  the lack is not
+  stated explicitly, but we gather that the step-mother wishes 
+  the same fortune for her own daughter as that received 
+  that of her husband. -->
+<Lack subtype="OtherFormsOfLack">
+</Lack>
+
+
+ 
+<DonorFunction subtype="TestOfHero">
+ Пришел и Мороз кpaсный  нос,  поглядел на свою гостью,  попрыгал-поскакал,  а хороших речей не дождал; </DonorFunction>
+<AcquisitionOfMagicalAgent subtype="CruelRetribution">рассердился, хватил ее и убил. </AcquisitionOfMagicalAgent>
+<Return>
+ «Старик,  ступай,  мою дочь привези,  лихих коней запряги, да саней не повали, да сундук не оброни!»
+ </Return>
+ <UnrecognizedArrival>
+ А собачка под столом:
+ 
+ «Тяв, тяв!  Старикову дочь женихи не возьмут, а старухиной в мешке косточки везут!»
+ 
+ - «Не ври!  На пирог, скажи: старихину в злате, в серебре везут!»</UnrecognizedArrival>
+ <PunishmentOfFalseHero subtype="Punished">
+ Растворились ворота, старуха выбезала встреть дочь, да вместо ее обняла холодное тело.  
+ 
+ Заплакала, заголосила, да поздно!
+</PunishmentOfFalseHero>
+ 
+ 					</Move>
+	</Folktale>
+</Corpus>

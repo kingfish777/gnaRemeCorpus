@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) -->
+<!-- last edited 11.08.2001 -->
+<!DOCTYPE Corpus SYSTEM "pftml.dtd">
+<Corpus>
+	<Folktale Title="Девушка и Медведь" AT="480" NewAfanasievEditionNumber="557" ProppConformity="Yes">
+		<Move>
+			
+			<Preparation>
+				<InitialSituation>
+Было три сестры, младшая - дурочка. 
+</InitialSituation>
+			
+
+<Absentation subtype="Elders">
+Летом собирали они в лесу
+ягоды; </Absentation>
+</Preparation>
+	<Lack subtype="LackOfHelper">
+<!-- She finds herself lost - in desperation, deep in the 
+  wood, she cries out for help -->		
+
+ старшая сестра заблудилась, шла, шла и пришла к хатке на 
+куриной лапке.  
+
+Вошла в хатку и стала сестер заплакать: 
+
+«Кто в лесу, кто в бору, пpиди ко мне ночевать!»
+</Lack>
+<DonorFunction subtype="TestOfHero">
+ - «Я в лесу, я в бору, приду к тебе ночевать, - отвечал огромный медведь, входя в дверь, - не бойся меня,
+влезь в пpaвoe мое ушко, вылезь в левое у нас всего будет!» 
+</DonorFunction>
+
+<HeroReaction subtype="SustainedOrdeal">
+Девица влезла медведю в правое ухо, вылезла в левое и нашла у себя за пазу­хой ключи. 
+
+«Теперь приготовь ужин!» 
+
+Она приготовила ужин. 
+
+Сели за стол; 
+
+мышь подбегает и просит у девицы кашки. 
+
+«Кто с тобой разгова­ривает?» - спрашивает медведь. 
+
+«Мышка каши nросит». 
+
+- «Ударь ее по лбу!» 
+
+Она ударила. 
+
+«Теперь стели мне постель ряд поленьев да ряд каменьев, ступу в головы, а жерновом накрыться». 
+
+Постель приготовлена;
+
+медведь лег, а девице велел целую ночь бегать по комнате да звенеть ключами. 
+
+Она бегает, ключами побрякивает, а медведь лежал, лежал и бpocил в нее жернов. 
+
+«Жива еще!» 
+
+- закричала мышка; 
+
+медведь бросил ступу. 
+
+«Жива еще!»  
+
+- опять отозвалась мышка, и вслед за ступой пo­ летело полено. 
+</HeroReaction>
+<AcquisitionOfMagicalAgent subtype="AgentNotTransferred">
+Убил медведь красную девицу и высосал из нее кровь.
+</AcquisitionOfMagicalAgent>
+
+
+<!-- Here were have a repetition of what happened to the second sister.  
+ Details omitted for redundancy's sake -->
+<DonorFunction subtype="TestOfHero"/>
+<HeroReaction subtype="SustainedOrdeal"/>
+<AcquisitionOfMagicalAgent subtype="AgentNotTransferred">
+В другой раз заблудилась середняя сестра, и с нею случилась та же
+самая беда. </AcquisitionOfMagicalAgent>
+
+
+<!-- And here comes the Fool, our Hero -->
+<DonorFunction subtype="TestOfHero">
+Вздумала меньшая-дурочка пойти поискать своих сестер и попала в ту же хатку. 
+
+Медведь велел ей приготовить ужин и постлать постель. с 
+
+Сели они за стол, прибежала мышка и стала nросить каши.
+</DonorFunction>
+<HeroReaction subtype="SustainedOrdeal">
+
+Девица дала ей. 
+
+«Кто с тобой paзгoвapивaeт?» - спросил медведь.
+
+«Никто!»</HeroReaction>
+<AcquisitionOfMagicalAgent subtype="AgentNotTransferred">
+ Вот когда медведь улегся, мышка сказала красной Девице:
+«Дай мне ключики, я стану за тебя бегать!»
+
+ Медведь бросил жернов, мышка закричала: 
+ 
+ «Не жива!» </AcquisitionOfMagicalAgent>
+ <PursuitRescueOfHero>
+		<PursuitOfHero subtype="AttemptToDevourHero"> Медведь вскочил, стал искать убитую, не нашел и побежал в лec. 
+ </PursuitOfHero>
+		<RescueOfHero subtype="TemptationWardedOff">
+ Тогда мышка рассказала девице про старших сестер, дала ей ключики, у котоpых что ни попроси  -  всё дадут, и</RescueOfHero>
+	</PursuitRescueOfHero>
+
+			<Return>про­водила ее домои.
+			</Return>
+		</Move>
+	</Folktale>
+</Corpus>
