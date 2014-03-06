@@ -1,6 +1,5 @@
 
 
-
 library(tm)
 library(foreign)
 setwd("C:/tales")
@@ -24,7 +23,7 @@ tdm <- TermDocumentMatrix(corpus,
 #inspect
 tdm$dimnames
 # create more dense matrix
-tdm.dense <- removeSparseTerms(dtm, .2)
+tdm.dense <- removeSparseTerms(tdm, .2)
 
 # write to arff
 
