@@ -20,10 +20,10 @@ Course of action:
        save in local folder
      * filter out personal names of protagonists, donors, villains [will 
      * write regular expression/grep to search and replace with null/"" any capitalized 
-       words in Corpus 
-       that appear in any location other than first word of a sentence]
+       words in Corpus that appear in any location other than first word of a sentence]
      * code to create chunks for testing [medium hard --- don’t have this]
      * code to transform "query chunk" into DocumentTermMatrix [medium easy]
+     * tokenize by sentences then put adjacent sentences back together again
     * B.) QUERY
      * Create language model (weighted DocumentTermMatrix) from corpus/text collection
       from above resultant text snippets
