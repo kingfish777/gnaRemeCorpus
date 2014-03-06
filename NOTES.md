@@ -27,4 +27,6 @@ Course of action:
     
     
  
+ random note (a biggie): 
  
+ http://stackoverflow.com/questions/17703553/bigrams-instead-of-single-words-in-termdocument-matrix-using-r-and-rweka
