@@ -3,15 +3,19 @@ Course of action:
 
 1.) take account of PftML tales, build corpus TO DO:
 
-      finish Russian on 20 tales
-      translate those to English
-      strategic markup of 60 more with these functions/content objects in evidence 
+      Finish Russian on 20 tales
+      
+      Translate those to English
+      
+      Strategic markup of 60 more with these functions/content objects in evidence 
       (based on Appendix III):
-          cardinal function (a = lack/A = villainy) --- every tale will have one of these 
-          by definition, so would be interesting to be able to identify these and possibly 
-          categorize them, based on Machine Learning as applied to PftML training corpus
-          Donor functions (DEF)
-          Wedding (w/W)
+      
+          - cardinal function (a = lack/A = villainy) --- every tale will have one of these 
+            by definition, so would be interesting to be able to identify these and possibly 
+            categorize them, based on Machine Learning as applied to PftML training corpus
+          - Donor functions (DEF)
+          - Wedding (w/W)
+          - etc.
 
 2.) Source code TO DO:
 
@@ -33,7 +37,7 @@ Course of action:
       B.) QUERY
       
        Create language model (weighted DocumentTermMatrix) from corpus/text collection
-      from above resultant text snippets
+       from above resultant text snippets
       
       C.) RETAIN RESULTS IN PERSISTENCE MECHANISM FOR FURTHER ANALYSIS
       
