@@ -15,7 +15,7 @@ corpus <- tm_map(corpus, tolower)
 #corpus <- tm_map(corpus, stripWhitespace)
 corpus <- tm_map(corpus, stemDocument)
 print(corpus[[13]])
-
+#change to TermDocumentMatrix, depending how frustrated you are
 tdm <- DocumentTermMatrix(corpus,
                           control=list(weighting = weightBin,
                                        stopwords = TRUE))
@@ -27,7 +27,7 @@ tdm.dense <- removeSparseTerms(tdm, .2)
 # write to arff
 
 write.arff(as.matrix(tdm), file="C:/term_document_matrix.arff", relation=tdm.dense$dimnames$Docs) # where file is your destination
-
+#keep fighting the stupid
 # or
 ###
 #Once you get to this point, you can browse through my code samples and plug in the dtm
