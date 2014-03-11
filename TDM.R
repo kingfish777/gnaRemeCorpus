@@ -37,3 +37,32 @@ write.arff(as.matrix(tdm), file="/home/kingfish/Desktop/term_document_matrix.arf
 library(topicmodels)
 library(lsa)
 library(RTextTools)
+#########
+require("NLP")
+## Some text.
+s <- paste(c("Pierre Vinken, 61 years old, will join the board as a ",
+             "nonexecutive director Nov. 29.\n",
+             "Mr. Vinken is chairman of Elsevier N.V., ",
+             "the Dutch publishing group."),
+           collapse = "")
+s <- as.String(s)
+
+sent_token_annotator <- Maxent_Sent_Token_Annotator()
+sent_token_annotator
+a1 <- annotate(s, sent_token_annotator)
+a1
+## Extract sentences.
+s[a1]
+## Variant with sentence probabilities as features.
+annotate(s, Maxent_Sent_Token_Annotator(probs = TRUE))
+##
+##
+##
+##
+http://stackoverflow.com/questions/18712878/r-break-corpus-into-sentences
+#
+#
+#
+#
+#
+#
