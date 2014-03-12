@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Propp says: -->
-<!-- I:  A12-11 B7 C Departure K8 M-N W* -->
-<!-- last edited 05.21.2002 -->
+<!-- A_11 B_7 C depart        G o L M  N K_8      Ex  U W 
+<!-- last edited 03.12.2014 -->
 <!DOCTYPE Corpus SYSTEM "pftml.dtd">
 <Corpus>
 	<Folktale Title="Буренушка" NewAfanasievEditionNumber="101" AT="511+403">
