@@ -12,6 +12,3 @@ We'll all have much better luck in our research going forward with these resourc
 
 This may now be considered to be again a work in progress.
 
-Enjoy.
-
- -sam
