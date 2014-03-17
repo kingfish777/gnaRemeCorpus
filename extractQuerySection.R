@@ -13,7 +13,8 @@ corpus <- Corpus(DirSource())
 print(corpus[[13]])
 
 convert_text_to_sentences <- function(text, lang = "en") {
-  # Function to compute sentence annotations using the Apache OpenNLP Maxent sentence detector employing the default model for language 'en'. 
+  # Function to compute sentence annotations using the Apache OpenNLP Maxent sentence 
+  # detector employing the default model for language 'en'. 
   sentence_token_annotator <- Maxent_Sent_Token_Annotator(language = lang)
 
   # Convert text to class String from package NLP
