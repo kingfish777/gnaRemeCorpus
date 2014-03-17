@@ -1,8 +1,16 @@
-
 # Load Packages
 require(tm)
 require(NLP)
 require(openNLP)
+library(foreign)
+library(tau)
+
+#setwd("C:/tales")
+setwd("/home/kingfish/tales")
+text <- system.file("texts", "txt", package="tm")
+# read in corpus
+corpus <- Corpus(DirSource())
+print(corpus[[13]])
 
 convert_text_to_sentences <- function(text, lang = "en") {
   # Function to compute sentence annotations using the Apache OpenNLP Maxent sentence detector employing the default model for language 'en'. 
@@ -21,7 +29,7 @@ convert_text_to_sentences <- function(text, lang = "en") {
   return(sentences)
 }
 
-reshape_corpus <- function(current.corpus, FUN, ...) {
+reshape_corpus <- function(corpus, FUN, ...) {
   # Extract the text from each document in the corpus and put into a list
   text <- lapply(current.corpus, Content)
 
@@ -33,7 +41,6 @@ reshape_corpus <- function(current.corpus, FUN, ...) {
   new.corpus <- Corpus(VectorSource(docs))
   return(new.corpus)
 }
-
 
 ## create a corpus
 dat <- data.frame(doc1 = "Doctor Who is a British science fiction television programme produced by the BBC. The programme depicts the adventures of a Time Lord—a time travelling, humanoid alien known as the Doctor. He explores the universe in his TARDIS (acronym: Time and Relative Dimension in Space), a sentient time-travelling space ship. Its exterior appears as a blue British police box, a common sight in Britain in 1963, when the series first aired. Along with a succession of companions, the Doctor faces a variety of foes while working to save civilisations, help ordinary people, and right wrongs.",
