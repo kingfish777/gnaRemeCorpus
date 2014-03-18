@@ -7,6 +7,9 @@ library(tau)
 #split training and testing ===>
 #http://stackoverflow.com/questions/14822333/split-sample-of-r-tm-corpus-objects?rq=1
 #setwd("C:/tales")
+#calculate mutual information with sklearn and numpy
+#http://stackoverflow.com/questions/20491028/optimal-way-for-calculating-columnwise-mutual-information-using-numpy
+#
 setwd("/home/kingfish/tales")
 text <- system.file("texts", "txt", package="tm")
 # read in corpus
