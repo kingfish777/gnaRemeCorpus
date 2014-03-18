@@ -9,7 +9,9 @@ library(tau)
 #setwd("C:/tales")
 #calculate mutual information with sklearn and numpy
 #http://stackoverflow.com/questions/20491028/optimal-way-for-calculating-columnwise-mutual-information-using-numpy
-#
+#######
+#entropy package
+# http://cran.r-project.org/web/packages/entropy/entropy.pdf
 setwd("/home/kingfish/tales")
 text <- system.file("texts", "txt", package="tm")
 # read in corpus
