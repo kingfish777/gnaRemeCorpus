@@ -1,4 +1,6 @@
 # Load Packages
+library(infotheo)
+library(entropy)
 require(tm)
 require(NLP)
 require(openNLP)
@@ -66,5 +68,7 @@ reshape_corpus(current.corpus, convert_text_to_sentences)
 
 library(qdap)
 with(sentSplit(tm_corpus2df(current.corpus), "text"), df2tm_corpus(tot, text))
-
+##
 tm_map(current.corpus, sent_detect)
+####
+mi_dtm <- infotheo::mutinformation(X=discretize(t(as.matrix(dtm))), method="sg" )
