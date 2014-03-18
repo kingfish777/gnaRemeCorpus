@@ -65,4 +65,4 @@ http://stackoverflow.com/questions/18712878/r-break-corpus-into-sentences
 #
 #
 #
-#
+writeLines(as.character(corpus), con="mycorpus.txt")
