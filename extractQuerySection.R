@@ -14,35 +14,39 @@ corpus <- Corpus(DirSource())
 print(corpus[[13]])
 
 convert_text_to_sentences <- function(text, lang = "en") {
-  # Function to compute sentence annotations using the Apache OpenNLP Maxent sentence 
-  # detector employing the default model for language 'en'. 
+  # Function to compute sentence annotations using the Apache OpenNLP Maxent sentence
+  # detector employing the default model for language 'en'.
   sentence_token_annotator <- Maxent_Sent_Token_Annotator(language = lang)
-
+  
   # Convert text to class String from package NLP
   text <- as.String(text)
-
+  
   # Sentence boundaries in text
   sentence.boundaries <- annotate(text, sentence_token_annotator)
-
+  
   # Extract sentences
   sentences <- text[sentence.boundaries]
-
+  
   # return sentences
   return(sentences)
 }
 
+sentences <- lapply(corpus[[13]], convert_text_to_sentences)
+
 reshape_corpus <- function(corpus, FUN, ...) {
   # Extract the text from each document in the corpus and put into a list
-  text <- lapply(current.corpus, Content)
-
+  text <- lapply(corpus, Content)
+  
   # Basically convert the text
   docs <- lapply(text, FUN, ...)
   docs <- as.vector(unlist(docs))
-
+  
   # Create a new corpus structure and return it
   new.corpus <- Corpus(VectorSource(docs))
   return(new.corpus)
 }
+
+new.corpus <- reshape_corpus(corpus, convert_text_to_sentences)
 
 ## create a corpus
 dat <- data.frame(doc1 = "Doctor Who is a British science fiction television programme produced by the BBC. The programme depicts the adventures of a Time Lord—a time travelling, humanoid alien known as the Doctor. He explores the universe in his TARDIS (acronym: Time and Relative Dimension in Space), a sentient time-travelling space ship. Its exterior appears as a blue British police box, a common sight in Britain in 1963, when the series first aired. Along with a succession of companions, the Doctor faces a variety of foes while working to save civilisations, help ordinary people, and right wrongs.",
@@ -61,4 +65,3 @@ library(qdap)
 with(sentSplit(tm_corpus2df(current.corpus), "text"), df2tm_corpus(tot, text))
 
 tm_map(current.corpus, sent_detect)
-
