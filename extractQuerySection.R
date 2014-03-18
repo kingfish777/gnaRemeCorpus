@@ -12,6 +12,10 @@ library(tau)
 #######
 #entropy package
 # http://cran.r-project.org/web/packages/entropy/entropy.pdf
+#
+#############################
+# http://kris.kalish.net/2013/11/mutual-information-in-r/
+#############################
 setwd("/home/kingfish/tales")
 text <- system.file("texts", "txt", package="tm")
 # read in corpus
