@@ -6,8 +6,10 @@ Course of action:
       Translate those to English [DONE]
 
       Drop translation text into PftML for existing 10 excellent, 10 so-so tales. [NOT YET]
-                          PftMLicized tales (Russian 10 incomplete, 10 complete): https://github.com/kingfish777/gnaRemeCorpus     
-                          Google English from FEB website (no markup): https://github.com/kingfish777/ProppModel
+                          PftMLicized tales (Russian 10 incomplete, 10 complete):
+                              * https://github.com/kingfish777/gnaRemeCorpus     
+                          Google English from FEB website (no markup): 
+                              * https://github.com/kingfish777/ProppModel
 
       Strategic markup of 60 more with these functions/content objects in evidence
       (based on Appendix III): [NOT YET]
