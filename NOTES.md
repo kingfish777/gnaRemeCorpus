@@ -15,6 +15,7 @@ Course of action:
             categorize them, based on Machine Learning as applied to PftML training corpus
           - Donor functions (DEF)
           - Wedding (w/W)
+          - H/I / M/N 
           - etc.
 
 2.) Source code TO DO:
