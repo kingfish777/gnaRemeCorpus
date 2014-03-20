@@ -56,13 +56,6 @@ s[a1]
 ## Variant with sentence probabilities as features.
 annotate(s, Maxent_Sent_Token_Annotator(probs = TRUE))
 ##
-##
-##
-##
 http://stackoverflow.com/questions/18712878/r-break-corpus-into-sentences
-#
-#
-#
-#
 #
 writeLines(as.character(corpus), con="mycorpus.txt")
